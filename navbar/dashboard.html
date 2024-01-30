@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OFE CRM</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="crm_style.css">
+</head>
+<body>
+    
+    <div class = "container">
+        <!--left side section start-->
+        <aside>
+
+            <div class="top">
+                <div class="logo">
+                    <h2>CRM<span class ="caution"></span></h2>
+                </div>
+                <div class="close">
+                    <span class="material-symbols-outlined">close</span>
+                </div>
+            </div>
+            <!--top ends here-->    
+
+            <div class="sidebar">
+
+                <a href="#" class="active">
+                    <span class="material-symbols-outlined">grid_view</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">contract</span>
+                    <h3>Contracts</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">person</span>
+                    <h3>Employees</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">payments</span>
+                    <h3>Cash Flow</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">monitoring</span>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">dialogs</span>
+                    <h3>Logs</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">settings</span>
+                    <h3>Settings</h3>
+                </a>
+            </div>       
+
+        </aside>    
+        <!--left side section end-->  
+        
+        <!--main section start-->
+        <main>
+            <h1>Dashboard</h1>
+
+            <div class="date">
+                <input type="date">
+            </div>
+
+            <!--start insights-->
+            <div class="insights">
+
+                    <!--Start Selling-->
+                    <div class="sales">
+                        <span class="material-symbols-outlined">trending_up</span>
+                        <div class="middle">
+                            <div class="left">
+                                <h3>Total Sales</h3>
+                                <h1>25 employees</h1>
+                            </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle r="30" cy="40" cx="40"></circle> 
+                                </svg>
+                                <div class="number">80%</div>
+                            </div>
+                        </div>
+                        <small>Last 24 hrs</small>
+                    </div>
+                    <!--end selling-->
+
+                    <!--Start Expenses-->
+                    <div class="expenses">
+                        <span class="material-symbols-outlined">local_mall</span>
+                        <div class="middle">
+                            <div class="left">
+                                <h3>Total Expenses</h3>
+                                <h1>25 employees</h1>
+                            </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle r="30" cy="40" cx="40"></circle> 
+                                </svg>
+                                <div class="number">80%</div>
+                            </div>
+                        </div>
+                        <small>Last 2</small>
+                    </div>
+                    <!--end expenses-->
+
+                    <!--Start income-->
+                    <div class="income">
+                        <span class="material-symbols-outlined">stacked_line_chart</span>
+                        <div class="middle">
+                            <div class="left">
+                                <h3>Total Expenses</h3>
+                                <h1>25 employees</h1>
+                            </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle r="30" cy="40" cx="40"></circle> 
+                                </svg>
+                                <div class="number">80%</div>
+                            </div>
+                        </div>
+                        <small>Last 2</small>
+                    </div>
+                    <!--end income-->
+            </div>
+            <!--end insights-->
+
+            <!--start recent order-->
+            <div class="recent_order">
+                <h1>Recent Orders</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product Name</th>
+                            <th>Product Number</th>
+                            <th>Payments</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mini USD</td>
+                            <td>456</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Ram 8gb</td>
+                            <td>097</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--end recent order-->
+
+
+
+        </main>
+        <!--main section end-->    
+
+    </div>
+
+</body>
+</html>
